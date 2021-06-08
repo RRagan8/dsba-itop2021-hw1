@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add a video</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="14" column="2">
+    <widget class="QLabel" name="label_16">
+     <property name="text">
+      <string>16. Enter the description of the video (without commas):</string>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>1. Enter ID of a video (only English letters of lower and higher registr):</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLineEdit" name="lineEdit"/>
+   </item>
+   <item row="11" column="2">
+    <widget class="QLineEdit" name="lineEdit_14"/>
+   </item>
+   <item row="9" column="2">
+    <widget class="QLineEdit" name="lineEdit_13"/>
+   </item>
+   <item row="18" column="2">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Cancel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLineEdit" name="lineEdit_2"/>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>6. Enter date and time of publishing (in the form YYYY:MM:DDTHH:MM:SS.000Z):</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLineEdit" name="lineEdit_9"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>2. Enter trending date (in the form YY.DD.MM):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLineEdit" name="lineEdit_5"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLineEdit" name="lineEdit_4"/>
+   </item>
+   <item row="10" column="2">
+    <widget class="QLabel" name="label_14">
+     <property name="text">
+      <string>14. Are ratings disabled (TRUE / FALSE)?</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="0">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>7. Enter tags (without commas):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLineEdit" name="lineEdit_6"/>
+   </item>
+   <item row="8" column="2">
+    <widget class="QLabel" name="label_13">
+     <property name="text">
+      <string>13. Are comments disabled (TRUE / FALSE)?</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>3. Enter the title of the video:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>4. Enter the title of the chanel:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLineEdit" name="lineEdit_7"/>
+   </item>
+   <item row="12" column="2">
+    <widget class="QLabel" name="label_15">
+     <property name="text">
+      <string>15. Does video result in error or is removed (TRUE / FALSE)?</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <widget class="QLabel" name="label_12">
+     <property name="text">
+      <string>12. Enter a thumbnail link:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QLineEdit" name="lineEdit_10"/>
+   </item>
+   <item row="4" column="2">
+    <widget class="QLabel" name="label_11">
+     <property name="text">
+      <string>11. Enter number of comments (non-negative integer number):</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2">
+    <widget class="QLineEdit" name="lineEdit_12"/>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>5. Enter id of the video category:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLabel" name="label_10">
+     <property name="text">
+      <string>10. Enter number of dislikes (non-negative integer number):</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QLineEdit" name="lineEdit_11"/>
+   </item>
+   <item row="13" column="2">
+    <widget class="QLineEdit" name="lineEdit_15"/>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLabel" name="label_9">
+     <property name="text">
+      <string>9. Enter number of likes (non-negative integer number):</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>8. Enter number of views (positive integer number):</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="0">
+    <widget class="QLineEdit" name="lineEdit_8"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLineEdit" name="lineEdit_3"/>
+   </item>
+   <item row="16" column="2">
+    <widget class="QTextEdit" name="textEdit"/>
+   </item>
+   <item row="17" column="2">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
